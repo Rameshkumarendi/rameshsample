@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  ramesh-ui-code: # name of app change it 
+    image: ramesh-web:appv$BUILD_NUMBER
+    build:
+      context: . # location of dockerfile 
+      dockerfile: Dockerfile # name of dockerfile 
+    container_name: ramesh-web-c1 
+    ports:
+      - 3456:80 # left side port b/w 1024 - 5000 
