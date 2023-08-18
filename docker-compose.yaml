@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile # name of dockerfile 
     container_name: ramesh-web-c1 
     ports:
-      - 3456:80 # left side port b/w 1024 - 5000 
+      - 3456:80 # left side port b/w 1024 - 5000  
