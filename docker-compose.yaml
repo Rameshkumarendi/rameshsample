@@ -5,6 +5,6 @@ services:
     build:
       context: . # location of dockerfile 
       dockerfile: Dockerfile # name of dockerfile 
-    container_name: ramesh-web-c1 
+    container_name: ramesh-web-c12 
     ports:
-      - 3456:80 # left side port b/w 1024 - 5000  
+      - 3436:80 # left side port b/w 1024 - 5000  
