@@ -12,7 +12,7 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: ramesh-webapp
+    app: ashu-webapp
   name: ramesh-webapp # name of deployment 
   namespace: ramesh-jk-deploy # add namespace 
 spec:
@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - image: rameshendi/ramesh-cloud4c-app:version26 # change docker with your image 
-        name: ramesh-cloud4c-app
+        name: ashu-cloud4c-app
         ports:
         - containerPort: 80
         resources: {}
@@ -42,7 +42,7 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: rameshlb1
+    app: ashulb1
   name: rameshlb1 # change name 
   namespace: ramesh-jk-deploy # add this 
 spec:
