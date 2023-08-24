@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   creationTimestamp: null
-  name: ashu-jk-deploy # change this part 
+  name: ramesh-jk-deploy # change this part 
 spec: {}
 status: {}
 ---
