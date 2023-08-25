@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - image: rameshendi/ramesh-cloud4c-app:version26 # change docker with your image 
-        name: ramesh-cloud4c-app
+        name: ashu-cloud4c-app
         ports:
         - containerPort: 80
         resources: {}
