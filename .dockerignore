@@ -1,3 +1,5 @@
 Dockerfile
 docker-compose.yaml
-.cockerignore
+.dockerignore
+.git
+ui-project.tar
